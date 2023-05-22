@@ -2,7 +2,10 @@ module xamss/microservices/test
 
 go 1.20
 
-require github.com/jackc/pgx/v5 v5.3.1
+require (
+	github.com/jackc/pgx/v5 v5.3.1
+	gopkg.in/go-playground/validator.v9 v9.31.0
+)
 
 require (
 	github.com/go-playground/locales v0.14.1 // indirect
@@ -14,5 +17,5 @@ require (
 	golang.org/x/crypto v0.6.0 // indirect
 	golang.org/x/sync v0.1.0 // indirect
 	golang.org/x/text v0.7.0 // indirect
-	gopkg.in/go-playground/validator.v9 v9.31.0 // indirect
+	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
 )
